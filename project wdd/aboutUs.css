@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  body {
+    /* background-color: #f5f5f5; */
+    width: 100%;
+    background: url("v1\ \(9\).jpeg")no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+
+
+  } 
+  /* header part */
+header{
+  height: 45px;
+  width: 100%;
+    
+    background-color: #130761; /* card-like surface */
+}
+header .head{
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .quote{
+  /* width: 100%; */
+  font-size: 30px;
+  color: #e0ffff;
+}
+nav{
+  height: 70px;
+  width: 100%;
+background-color:#130761;
+}
+nav .main-header {
+  height: 100%;
+   display: flex;
+  align-items: center;
+  background-color: #07268f;
+  border-bottom: 1px solid #333;
+}
+
+nav .main-header .nav-right{
+  display: flex;
+  align-items: center; 
+  justify-content: end;
+  text-align: right;
+  width: 1500px;
+}
+
+nav .main-header .nav-right a{
+   margin: 0px 10px; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  color: white;
+  transition:  0.3s ease;
+}
+
+nav .main-header .logo-cont{
+  display: flex;
+}
+nav .main-header .logo-cont img{
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  /* border-radius: 50%; */
+} 
+nav .main-header .logo-cont .logo-name{
+  /* color: white; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-size: cover; 
+  width: 200px;
+  padding: 0px 10px 0px 5px;
+  color: #e0ffff;
+  font-family: 'Times New Roman';
+  font-size: 40px;
+ font-weight:600;
+  
+  
+}
+
+nav .main-header .nav-right a:hover{
+  border: 1px solid white;
+  color:darkblue;
+  background-color: lightgrey;
+  transition: 0.5s ease;
+  transform: scale(1.2);       
+}
+
+
+
+
+nav .main-header .nav-right .sign-in{
+  margin-right: 10px;
+
+}
+
+
+  .header{
+    text-align: center;
+    margin-top: 60px;
+    padding:10px;
+    
+  }
+  h2 {
+    text-align: center;
+    margin-top: 20px;
+    
+    color: #ffffff;
+  }
+  #p1{
+    text-align:center;
+    margin-top:20px;
+    color: #e0ffff;
+  }
+  .members {
+    display: flex;
+    align-items: center;
+    /* background-color: #fff; */
+    background-color: #130761;
+    padding:20px;
+    padding-top:40px;
+    margin-top:40px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    gap: 20px;
+    width: 95%;
+    border-radius: 20px;
+    border: 3px solid #e0ffff;
+  }  
+
+  .vd{
+    display: flex;
+    align-items: center;
+    background-color: #130761;
+    padding: 20px;
+    padding-top:40px;
+    margin-top:40px;
+    margin-bottom:20px;
+    justify-content: end;
+    gap: 20px;
+    width: 95%;
+    border-radius: 20px;
+    border: 3px solid #e0ffff;
+    margin-left: 20px;
+  }
+  .member-details {
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    color: #cccccc;
+    justify-content: center;
+    align-items: center;
+    
+    /* text-align: end; */
+  }
+  .member-details h1 {
+    font-size: 5em;
+    margin-bottom: 8px;
+    /* color: #0077cc; */
+    color: #16b1c6;
+    
+    
+  }
+  .members .member-details .vidhi{
+    display: flex;
+    background-color: #130761;
+    flex-direction: column;
+    /* justify-content: end; */
+    
+    
+  }
+  .vd .member-details .vidhi h1{
+    display: flex;
+    background-color: #130761;
+    flex-direction: column;
+    padding-left: 100px;
+    width: 550px;
+    /* justify-content: end; */
+    
+    
+  }
+  .member-details p {
+    font-size: 2em;
+    color: #64ffda;
+    margin-bottom: 20px; 
+  }
+  .members img {
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    margin-left: 50px;
+    border-radius:10px ;
+  }
+  .vd img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 50px;
+    border-radius:10px ;
+
+
+  }
+  /* .member #vidhi{
+    
+  } */
+  .members .right img{
+    display:flex;
+    justify-content: right;
+    align-items: right;
+    flex-flow: row;
+    
+
+  }
+  
+  footer{
+    height:50px;
+    width: 100%;
+      /* background-color: #092635;  */
+      background-color: #130761;
+display: flex;
+justify-content: center;
+align-items: center;      
+
+}
+.footpart{
+    font-size: 20px;
+    color: #e0ffff;
+}
+
+
+@media (min-width:320px) and (max-width:374px) {
+  header .quote{
+    font-size: 11px;
+  }
+  nav .main-header .logo-cont .logo-name{
+    font-size: 15px;
+    padding: 0;
+    font-weight: 600;
+    width: 90px;
+}
+
+nav .main-header .logo-cont img{
+  width: 40px;
+  height: 40px;
+  margin-left: 3px;
+}
+nav .main-header .nav-right a{
+margin: 0px;
+font-size: 15px;
+padding:  5px;
+}
+nav .main-header .nav-right .sign-in{
+margin-right: 5px;
+} 
+.members{
+  width: 75%;
+  flex-direction: column;
+}
+.vd{
+  width: 75%;
+  flex-direction: column-reverse;
+}
+.logo-name{
+  font-family: 'Times New Roman';
+}
+.members img{
+  margin-left: 0px;
+}
+.vd img{
+  margin-right: 0px;
+}
+.member-details {
+  height: 150px;  
+}
+.member-details h1 {
+  
+  font-size: 28px;
+}
+.member-details p {
+  font-size: 1.2em;
+  text-align: center;
+ 
+}
+.vd .member-details .vidhi{
+  /* align-items: end; */
+  width: 400px;
+}
+.vd .member-details .vidhi h1{
+  margin-left: 90px;
+  padding-left: 0px;
+  width: 240px;
+  font-size: 36px;
+}
+.vd .member-details .vidhi p{
+  margin-left: 50px;
+
+  width: 300px;
+  text-align: center;
+}
+
+}
+
+@media (min-width:375px) and (max-width:424px) {
+  header .quote{
+    font-size: 13px;
+  }
+  nav .main-header .logo-cont .logo-name{
+    font-size: 20px;
+    padding: 0;
+    font-weight: 600;
+    width: 100px;
+}
+
+nav .main-header .nav-right a{
+margin: 0px;
+font-size: 15px;
+padding: 10px 5px;
+}
+nav .main-header .nav-right .sign-in{
+margin-right: 5px;
+} 
+.members{
+  width: 75%;
+  flex-direction: column;
+}
+.vd{
+  width: 75%;
+  flex-direction: column-reverse;
+}
+.logo-name{
+  font-family: 'Times New Roman';
+}
+.members img{
+  margin-left: 0px;
+}
+.vd img{
+  margin-right: 0px;
+}
+.member-details {
+  height: 150px;  
+}
+.member-details h1 {
+  
+  font-size: 35px;
+}
+.member-details p {
+  font-size: 1.2em;
+  text-align: center;
+ 
+}
+.vd .member-details .vidhi{
+  /* align-items: end; */
+  width: 400px;
+}
+.vd .member-details .vidhi h1{
+  margin-left: 80px;
+  padding-left: 0px;
+  width: 250px;
+  font-size: 36px;
+}
+.vd .member-details .vidhi p{
+  margin-left: 35px;
+
+  width: 320px;
+  text-align: center;
+}
+
+}
+
+@media (min-width:425px) and (max-width:767px) {
+  header .quote{
+    font-size: 15px;
+  }
+  nav .main-header .logo-cont .logo-name{
+    font-size: 20px;
+    padding: 0;
+    font-weight: 600;
+    width: 100px;
+}
+
+nav .main-header .nav-right a{
+margin: 0px;
+font-size: 15px;
+padding: 10px 5px;
+}
+nav .main-header .nav-right .sign-in{
+margin-right: 5px;
+} 
+.members{
+  width: 80%;
+  flex-direction: column;
+}
+.vd{
+  width: 80%;
+  flex-direction: column-reverse;
+}
+.logo-name{
+  font-family: 'Times New Roman';
+}
+.members img{
+  margin-left: 0px;
+}
+.vd img{
+  margin-right: 0px;
+}
+.member-details {
+  height: 150px;  
+}
+.member-details h1 {
+  
+  font-size: 40px;
+}
+.member-details p {
+  font-size: 1.2em;
+  text-align: center;
+ 
+}
+.vd .member-details .vidhi{
+  /* align-items: end; */
+  width: 400px;
+}
+.vd .member-details .vidhi h1{
+  margin-left: 80px;
+  padding-left: 0px;
+  width: 300px;
+  font-size: 40px;
+}
+.vd .member-details .vidhi p{
+  margin-left: 20px;
+
+  width: 350px;
+  text-align: center;
+}
+
+}
+
+@media (min-width:768px) and (max-width:1023px) {
+  header .quote{
+    font-size: 25px;
+  }
+  .members{
+    width: 89%;
+  }
+  .vd{
+    width: 89%;
+  }
+  .logo-name{
+    font-family: 'Times New Roman';
+  }
+  .members img{
+    margin-left: 0px;
+  }
+  .vd img{
+    margin-right: 0px;
+  }
+  .member-details h1 {
+    
+    font-size: 60px;
+  }
+  .member-details p {
+    font-size: 1.2em;
+   
+  }
+  .vd .member-details .vidhi{
+    /* align-items: end; */
+    width: 400px;
+  }
+  .vd .member-details .vidhi h1{
+    padding-left: 20px;
+    width: 400px;
+  }
+ }
+ 
+
+  @media (min-width:1024px) and (max-width:1439px) {
+    .members{
+      width: 92%;
+    }
+    .vd{
+      width: 92%;
+    }
+    .logo-name{
+      font-family: 'Times New Roman';
+    }
+    .members img{
+      margin-left: 0px;
+    }
+    .vd img{
+      margin-right: 0px;
+    }
+    
+  }

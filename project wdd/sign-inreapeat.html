@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signinrepeat.css">
+</head>
+<body>
+      <!-- header part start -->
+    <header>
+        <div class="head">
+            <div class="quote">*"No loading screens. No delays. Only perfect timekeeping."*</div><!-- qoutation of the website -->
+        </div>
+    </header>
+   <!-- navbar start -->
+     <nav>
+        <div class="main-header">
+            <div class="logo-cont">
+                <img src="logo.png" alt="photo"><!-- logo image  -->
+            <div class="logo-name">TimeWorld</div><!--logo name  -->
+        </div>
+        <div class="nav-right"> <!-- nav bar of the right side contains home,sign-in,about-us -->
+           <a href="mainpage.html" class="home">home</a>
+           <a href="about-Us.html" class="about-us">about-us</a>
+           <a href="sign-inreapeat.html" class="sign-in">sign-in</a> 
+        </div>
+         </div> 
+        </nav>
+        <!-- body part start -->
+    <div class="main-cont">
+        <div>
+            <form id="form"><!-- fpr registration form -->
+                <fieldset id="form"><!-- box of registration form -->
+                    <!-- for enter first name -->
+                <div class="name-text">First Name :  
+                 <input type="text" class="b" id="name" required pattern="[A-Za-z\s]+" title="please enter only text">
+                 </div>
+                  <!-- for enter middle name -->
+                 <div class="name-text">Middle Name :  
+                    <input type="text" class="b" id="name" required pattern="[A-Za-z\s]+"  title="please enter only text">
+                    </div>
+                     <!-- for enter last name -->
+                    <div class="name-text">Last Name :  
+                        <input type="text" class="b" id="name" required pattern="[A-Za-z\s]+"  title="please enter only text">
+                        </div>
+                         <!-- for enter age -->
+                 <div class="name-text">Age :
+                <input type="number" class="c" id="age" required>
+                </div>
+                 <!-- for select education-->
+               <div class="edu name-text"> Education :
+                <div class="edu-opt">
+                <input id="trans" type="radio" name="Education"  value="12th" required> 12th
+                <input type="radio"  id="trans" name="Education"  value="UG"> UG
+                <input type="radio"  id="trans" name="Education"  value="PG"> PG
+                <input type="radio"  id="trans" name="Education"  value="PHD"> P.HD 
+            </div>
+            </div>
+              <!-- for select category student or employee-->
+            <div class="cat name-text">Category :
+                <div class="cat-opt">
+                <input type="radio" name="study" id="st-emp" value="student" required>Student
+                  <input type="radio" name="study" id="st-emp" value="employee">Employee
+                </div>
+                </div>
+                 <!-- for enter email -->
+               <div class="name-text">Email :
+                <input type="email" class="d" name="email" required>
+                </div>
+                 <!-- for enter mobile number -->
+                <div class="name-text">MobileNumber :
+                 <input type="tel" class="e" max="10"  name="number" minlength="10" maxlength="10" pattern="[0-9]+" required  title="please enter only number">
+                </div>
+                 <!-- for select country -->
+                <div id="country" class="name-text">Country:
+                <select required>
+                    <option value="" disabled selected>Select</option>
+                    <option value="USA">U.S.A.</option>
+                    <option value="UK">U.K.</option>
+                    <option value="Russia">Russia</option>
+                    <option value="canada">canada</option>
+                </select>
+                </div>
+                 <!-- for select clock time 12am/pm or 24 hour-->
+                <div class="cf ">Prefered Clock Formate :
+                 <input type="radio" name="Prefered" id="hour"  value="12 hours" required>12 Hours
+                  <input type="radio" name="Prefered" id="hour" value="24 hours">24 Hours 
+            </div>
+             <!-- for select submit or reset -->
+                <div class="submit-reset">
+                <input type="submit" class="sub-res submit" value="submit">
+                <input type="reset" class="sub-res reset" value="reset">
+                </div>
+                </filedset>
+                </form>
+                </div>
+        </div> 
+       <!-- footer part start -->
+        <footer>
+            <div class="footpart">made by TimeWorld </div>
+
+        </footer>
+    </div>
+     <script src="sign-inrepeat.js"></script>
+</body>
+</html>

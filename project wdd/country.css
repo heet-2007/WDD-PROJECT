@@ -1,0 +1,488 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+    /* background-color: #4b3fa7; */
+    /* font-family: sans-serif; */
+    background: url("v1\ \(9\).jpeg")no-repeat center center;
+    color: rgb(219, 209, 209);
+    background-size: cover;
+    /* padding: 30px; */
+  }
+  
+  /* header part */
+header{
+  height: 45px;
+  width: 100%;
+    
+    background-color: #130761; /* card-like surface */
+}
+header .head{
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .quote{
+  /* width: 100%; */
+  font-size: 30px;
+  color: #e0ffff;
+}
+nav{
+  height: 70px;
+  width: 100%;
+background-color:#130761;
+}
+nav .main-header {
+  height: 100%;
+   display: flex;
+  align-items: center;
+  background-color: #07268f;
+  border-bottom: 1px solid #333;
+}
+
+nav .main-header .nav-right{
+  display: flex;
+  align-items: center; 
+  justify-content: end;
+  text-align: right;
+  width: 1500px;
+}
+
+nav .main-header .nav-right a{
+   margin: 0px 10px; 
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 1px solid transparent;
+  color: white;
+  transition:  0.3s ease;
+}
+
+nav .main-header .logo-cont{
+  display: flex;
+}
+nav .main-header .logo-cont img{
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  /* border-radius: 50%; */
+} 
+nav .main-header .logo-cont .logo-name{
+  /* color: white; */
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background-size: cover; 
+  width: 200px;
+  padding: 0px 10px 0px 5px;
+  color: #e0ffff;
+
+  font-size: 40px;
+ font-weight:600;
+  
+  
+}
+
+nav .main-header .nav-right a:hover{
+  border: 1px solid white;
+  color:darkblue;
+  background-color: lightgrey;
+  transition: 0.5s ease;
+  transform: scale(1.2);       
+}
+
+
+
+
+nav .main-header .nav-right .sign-in{
+  margin-right: 10px;
+
+}
+
+
+.country{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  
+  .card {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 30px 0;
+    background-color: #07268f;
+    color: #e0ffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    width: 90%;
+  }
+  
+  .card.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .card img {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin: 0px 0px 0px 5px;
+  }
+  
+  
+  
+  
+ 
+ 
+  
+  
+  .text {
+    font-size: 150px;
+    font-weight: bold;
+    margin-left: 200px;
+    opacity: 1;
+    
+  }
+  
+  .text2 {
+    font-size: 150px;
+    font-weight: bold;
+    margin-right: 120px;
+    opacity: 1;
+    
+  }
+  
+  .text3 {
+    font-size: 150px;
+    font-weight: bold;
+    margin-left: 100px;
+    opacity: 1;
+    
+  }
+  
+  .text4 {
+    font-size: 110px;
+    font-weight: bold;
+    opacity: 1;
+    margin-right: 70px;
+    
+  }
+  
+  
+  .flag {
+    opacity: 1;
+    
+  }
+  
+  
+  
+/* for footer  */
+.footer {
+  
+  text-align: center;
+  width: 100%;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.footer navbottom {
+  display: flex;
+  justify-content: space-evenly; /* Distributes space evenly */
+   align-items: center;
+   cursor: pointer;
+   font-size: 30px;
+   width: 100%;
+}
+.footer navbottom a{
+  height: 80px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid #092635;
+  color: white; /* muted teal */
+  font-weight: 500; 
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+ .footer navbottom a:hover{
+    
+    border: 1px solid white;
+    color:darkblue;
+    background-color: lightgrey;
+    /* transition: 0.3s ease; */
+    transform: scale(1.1)  ;  
+} 
+footer{
+    height:50px;
+    width: 100%;
+      /* background-color: #092635;  */
+      background-color: #130761;
+display: flex;
+justify-content: center;
+align-items: center;      
+
+}
+.footpart{
+    font-size: 20px;
+    color: #e0ffff;
+}
+.footer navbottom .timer{
+    background-color:#07268f ;
+
+}
+
+.footer navbottom .stop-watch{
+    background-color:#07268f ;
+    
+}
+.footer navbottom .countries{
+    background-color:#07268f ;
+}
+.home:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.about-us:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.sign-in:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+@media (min-width:320px) and (max-width:374px) {
+  
+
+  header .quote{
+   font-size: 12px;
+
+  }
+  nav .main-header .logo-cont .logo-name{
+       font-size: 15px;
+       padding: 0;
+       font-weight: 600;
+       width: 90px;
+  }
+  nav .main-header .logo-cont img{
+    width: 40px;
+    height: 40px;
+    margin-left: 3px;
+}
+  nav .main-header .nav-right a{
+   margin: 0px;
+   font-size: 15px;
+   padding: 5px;
+  }
+  nav .main-header .nav-right .sign-in{
+   margin-right: 5px;
+  } 
+  body .main-cont{
+   height: 630px;
+   } 
+  
+    .card{
+      width: 80%;
+    }
+    .card img{
+     width: 230px;
+     height: 80%;
+     margin-left: 15px;
+    }
+    .card.reverse img{
+    margin-right: 15px;
+    width: 230px;
+    }
+    .text{
+     display: none;
+   }
+   .text2{
+    display: none;
+     
+   }
+   .text3{
+    display: none;
+     
+   }
+   .text4{
+    display: none;
+   
+   }
+   .footer navbottom a{
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+  }
+   }
+@media (min-width:375px) and (max-width:424px) {
+  
+
+  header .quote{
+   font-size: 14px;
+
+  }
+  nav .main-header .logo-cont .logo-name{
+       font-size: 20px;
+       padding: 0;
+       font-weight: 600;
+       width: 100px;
+  }
+  
+  nav .main-header .nav-right a{
+   margin: 0px;
+   font-size: 15px;
+   padding: 10px 5px;
+  }
+  nav .main-header .nav-right .sign-in{
+   margin-right: 5px;
+  } 
+  body .main-cont{
+   height: 630px;
+   } 
+  
+    .card{
+      width: 80%;
+    }
+    .card img{
+     width: 260px;
+     height: 80%;
+     margin-left: 15px;
+    }
+    .card.reverse img{
+    margin-right: 15px;
+    width: 260px;
+    }
+    .text{
+     display: none;
+   }
+   .text2{
+    display: none;
+     
+   }
+   .text3{
+    display: none;
+     
+   }
+   .text4{
+    display: none;
+   
+   }
+   .footer navbottom a{
+    height: 60px;
+    width: 100px;
+    font-size: 20px;
+  }
+   }
+   @media (min-width:425px) and (max-width:767px) {
+  
+
+    header .quote{
+     font-size: 15px;
+  
+    }
+    nav .main-header .logo-cont .logo-name{
+         font-size: 20px;
+         padding: 0;
+         font-weight: 600;
+         width: 100px;
+    }
+    
+    nav .main-header .nav-right a{
+     margin: 0px;
+     font-size: 15px;
+     padding: 10px 5px;
+    }
+    nav .main-header .nav-right .sign-in{
+     margin-right: 5px;
+    } 
+    body .main-cont{
+     height: 630px;
+     } 
+    
+      .card{
+        width: 80%;
+      }
+      .card img{
+       width: 300px;
+       height: 80%;
+       margin-left: 15px;
+      }
+      .card.reverse img{
+      margin-right: 15px;
+      width: 300px;
+      }
+      .text{
+       display: none;
+     }
+     .text2{
+      display: none;
+       
+     }
+     .text3{
+      display: none;
+       
+     }
+     .text4{
+      display: none;
+     
+     }
+     }
+    
+@media (min-width:768px) and (max-width:1023px) {
+  .card img{
+   width: 600px;
+   height: 360px;
+   margin-left: 40px;
+  }
+  .card.reverse img{
+    margin-right: 40px;
+  }
+  .text{
+   display: none;
+ }
+ .text2{
+  display: none;
+   
+ }
+ .text3{
+  display: none;
+   
+ }
+ .text4{
+  display: none;
+ 
+ }
+ }
+ 
+@media (min-width:1024px) and (max-width:1439px) {
+ .card img{
+  width: 450px;
+  height: 360px;
+ }
+ .text{
+  margin-left: 120px;
+  font-size: 100px;
+}
+.text2{
+  margin-right: 60px;
+  font-size: 100px;
+}
+.text3{
+  margin-left: 60px;
+  font-size: 100px;
+}
+.text4{
+  margin: 0px;
+  font-size: 80px;
+}
+}
+

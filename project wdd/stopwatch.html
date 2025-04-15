@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page2</title>
+    <link rel="stylesheet" href="stopwatch1.css">
+</head>
+<body>
+        <!-- header part start -->
+    <header>
+        <div class="head">
+            <div class="quote">*"No loading screens. No delays. Only perfect timekeeping."*</div><!-- qoutation of the website -->
+        </div>
+    </header>
+  <!-- navbar start -->
+     <nav>
+        <div class="main-header">
+            <div class="logo-cont">
+                <img src="logo.png" alt="photo">
+            <div class="logo-name">TimeWorld</div>
+        </div>
+        <div class="nav-right"><!-- nav bar of the right side contains home,sign-in,about-us -->
+           <a href="mainpage.html" class="home">home</a>
+           <a href="about-us.html" class="about-us">about-us</a>
+           <a href="sign-inreapeat.html" class="sign-in">sign-in</a> 
+        </div>
+         </div> 
+        </nav>
+   <!-- body part start -->
+    <div class="main-cont">
+        <div class="sub-cont">
+            <div class="child-contt">
+            <p id="hour">00</p>
+            <p>:</p>
+            <p id="min">00</p>
+            <p>:</p>
+            <p id="sec">00</p>
+             <!-- for milisecond but not showing on page -->
+            <p style="display: none;">:</p>  
+            <p id="msec" style="display: none;">00</p>
+         </div> 
+         <!-- input container for enter hour,min,sec -->
+         <div class="input-cont">
+            <div class="enter">
+                <div class="hour">Enter </div>
+                <div class="hour">Hour </div>
+                <input type="text" class="input-value" id="HV"  maxlength="2">
+            </div>
+            <div class="enter">
+                <div class="hour">Enter </div>
+                <div class="hour">Minute </div>
+                <input type="text" class="input-value" id="MV" maxlength="2">
+            </div>
+            <div class="enter">
+                <div class="hour">Enter </div>
+                <div class="hour">Second </div>
+                <input type="text" class="input-value" id="SV" maxlength="2">
+            </div>
+            <div class="enter" style="display: none;">
+                <div class="hour">Enter </div>
+                <div class="hour">Second </div>
+                <input type="text" class="input-value" id="MSV"  maxlength="2">
+            </div> 
+         
+        </div>
+        <!-- buttons : stop , start , reset -->
+            <div class="buttons">  
+                <div id="stop">stop</div>
+                
+                 <div id="start">start</div>
+                <div id="reset">reset</div>
+             </div>
+        </div>
+    </div>
+     <!-- timer stopwatch and country button -->
+    <div class="footer">
+
+        <navbottom>
+        <a href="timer.html" class="timer">Timer</a>
+        <a href="stopwatch.html" class="stop-watch">Stopwatch</a>
+        <a href="country.html" class="countries">Countries</a>
+       
+        </navbottom>
+    </div>
+     <!-- footer part start -->
+    <footer>
+        <div class="footpart">made by TimeWorld</div>
+       
+    </footer>
+</div>
+<script src="stopwatch1.js"></script>
+</body>
+</html>
